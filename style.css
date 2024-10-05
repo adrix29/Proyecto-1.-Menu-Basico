@@ -1,0 +1,40 @@
+Body{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+a{
+    text-decoration: none ;
+    color: white;
+}
+header{   
+   display: flex;
+   background-color: #b3e1f0;
+   min-height: 70px;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px;
+}
+.Logo{
+    display: flex;
+    align-items: center;
+}
+.Logo img{
+    height: 75px;
+    margin-right: 10px;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+nav a:hover{
+    color: #c03db5;
+}
+
+@media (max-width:680px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+}
